@@ -17,3 +17,66 @@ I am expecting below points to be loaded in my app.
 #9. If i click on the Profile card it should show popup page withh all details, i any more required to handle /show i will add and update regarding the Person.
 
 Overall Userfriendly / Responively Page required
+
+
+******************************************************************************************
+
+family:{
+	id
+	fCode(Unique, Auto, NOT NULL)
+	name(NOT NULL)
+	ancestor
+	history
+}
+
+parenting:{
+	id
+	pCode(Unique, Auto, NOT NULL)
+	bride(mCode)//Both NOT NULL ; Any one might have null
+	groom(mCode)//Both NOT NULL ; Any one might have null
+	isAlive(Default 1)
+	start
+	end
+	iSPublicized(Default 1)
+	comments
+}
+
+Org_user_role_permission
+fcode_userCode_pCode
+userCode_eduCode_AddrCode_OccuCode_hobbiCode_InterCode_expertCode_experCode
+Person:{
+	id
+	userCode(Unique, Auto, NOT NULL)
+	(pCode)
+	(fCode)
+	firstName(NOT NULL, ONLY CHAR, NO Whitespace )
+	lastName
+	mobile
+	email
+	dob
+	gender(NOT NULL)
+	about
+	
+	presentRoutine(Profile Summary)
+	(
+	Education[]
+	Address[]
+	Occupations[]
+	Hobbies[]
+	Interests[]
+	Expertise[]
+	Experience[]
+	)
+	
+}
+
+******************************************************************************************
+
+******************************************************************************************
+
+
+******************************************************************************************
+
+******************************************************************************************
+
+******************************************************************************************
