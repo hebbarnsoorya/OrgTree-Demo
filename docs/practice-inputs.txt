@@ -1,0 +1,19 @@
+Use React, TailwindCDD, .SCSS, NextJS, Typesript etc, and High quality/Standard/Reusability components/Best Practices.
+
+Develop as Senior Architect, Generate Family tree , Use a card(Small in size and don't use real photo, instead use default image or no image) to each member to show , his/her Stapsize photo, Name,DOB, Mobile, Address on the same.
+
+Esay to navigate upward / downward tree, option to choose She or He as reference to up/down travel. Use Dummy data withh scenario o cover.
+Start from React  installation, required tools setup and project configuration till end step-by-step
+
+I am expecting below points to be loaded in my app.
+#1. Parent row (Father and Monther 's Profile card show Side by side) 
+#2. Below to the Parenet row, next row show up all childrens profile card
+#3. If children married, show his/her Spouse beside of her/his Card and Follow #2
+#4.  Continuely  till last child's card
+#5. 2 separate radio button on Parents card, if I choose Father, it should travell thru all the Father's family and hierarchie and If mother it should show maother's familly, By Deault Father should be selected.
+#6. Travell thru all the  Father's family, means to say; Upward direction ... Father's Parants,  like...
+#7. Travell thru all the  Monther's family, means to say; Upward direction ... Mother's Parants like , 
+#8. In downward also should work same, which I selected to travel downward in that way/Family hierarchie it should show details
+#9. If i click on the Profile card it should show popup page withh all details, i any more required to handle /show i will add and update regarding the Person.
+
+Overall Userfriendly / Responively Page required
