@@ -59,17 +59,18 @@ Person:{
 	
 	presentRoutine(Profile Summary)
 	(
-	Education[]
-	Address[]
-	Occupations[]
-	Hobbies[]
-	Interests[]
-	Expertise[]
-	Experience[]
+	Education[]: Name, Institute, Begin, end, year of complete, isPresent, secured score/grade, out of score/grade, remarks
+	Address[]: addressLine1, addrssLine2, addressLine3(Landmark), city, state, country, region, postalCode, type[Residential, Office,  Communication, Transitional, care-of, Bussiness, Temporary residence/Stay ]
+	Occupations[]: Name, Institute/Orgs, Possition/Level, DateOfJoin, DateOfExit, isPresent, location, OrgsbelongsTo[MNC, Country Based, Country based MNC]
+	Hobbies[]: Name, Area, remarks
+	Interests[]: Name, Area, rankinglevel, remarks
+	Expertise[]: Name, Area, Level, rankinglevel, remarks
+	Experience[]: Name, Area, how long have you been using those skills, remarks
 	)
 	
 }
 
+TechStacks/Skills :| Redis | Kafka | LocalStorage | MongoDB | EHCache | AOP | OAuth2 - JWT Token | RBAC | DockerImage | Docker/K8s | CICD | 
 ******************************************************************************************
 
 ******************************************************************************************
